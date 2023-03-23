@@ -25,6 +25,7 @@ nav {
     padding: 30px 10px;
 }
 
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -103,7 +104,8 @@ nav ul li a:hover:after {
     font-size: 75px;
     font-weight: 900;
     line-height: 90px;
-    width: 90%;
+    text-transform: inherit;
+    width: 70%;
 }
 
 .content h1 span {
@@ -111,7 +113,7 @@ nav ul li a:hover:after {
 }
 
 .content p {
-    width: 90%;
+    width: 55%;
     color: #202020;
     margin-top: 25px;
     margin-bottom: 30px;
