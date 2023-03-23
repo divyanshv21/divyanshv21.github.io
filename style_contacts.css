@@ -42,7 +42,7 @@ nav ul li a:hover {
     color: #fd4766;
 }
 
-nav ul li a:after {
+/* nav ul li a:after {
     content: "";
     position: absolute;
     left: 0;
@@ -51,7 +51,7 @@ nav ul li a:after {
     background: #fd4766;
     transition: 0.3s;
     bottom: 0;
-}
+} */
 
 nav ul li a:hover:after {
     width: 100%;
