@@ -99,6 +99,11 @@ nav ul li a:hover:after {
     -webkit-text-fill-color: transparent;
 }
 
+.logo {
+    max-height: 60px;
+    border-radius: 80%;
+}
+
 .content h1 {
     color: #1f1f25;
     font-size: 75px;

@@ -22,13 +22,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 100px;
+    padding: 30px 10px;
 }
 
-.logo {
-    max-height: 60px;
-    border-radius: 80%;
-}
 
 nav ul li {
     list-style: none;
@@ -46,7 +42,7 @@ nav ul li a:hover {
     color: #fd4766;
 }
 
-nav ul li a:after {
+/* nav ul li a:after {
     content: "";
     position: absolute;
     left: 0;
@@ -55,7 +51,7 @@ nav ul li a:after {
     background: #fd4766;
     transition: 0.3s;
     bottom: 0;
-}
+} */
 
 nav ul li a:hover:after {
     width: 100%;
@@ -101,6 +97,11 @@ nav ul li a:hover:after {
             #fd4766 79.69%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.logo {
+    max-height: 60px;
+    border-radius: 80%;
 }
 
 .content h1 {
