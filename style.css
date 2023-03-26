@@ -103,6 +103,19 @@ nav ul li a:hover:after {
     -webkit-text-fill-color: transparent;
 }
 
+.profile-pic {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+
 .content h1 {
     color: #1f1f25;
     font-size: 75px;
