@@ -2,16 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>homepage</title>
-    <!----CSS link----->
-    <link rel="stylesheet" href="style_blog.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS code */
+    </style>
 </head>
 
 <body>
-    <div class="hero">
+    <header class="hero">
         <nav>
-            <img src="./logo.png" class="logo" />
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
@@ -21,27 +26,44 @@
             </ul>
         </nav>
         <div class="content">
-            <h1>My Blog</h1>
-            <h2>Latest Posts</h2>
-            <ul>
-                <li>
-                    <a href="post1.html">
-                        <h3>Post Title 1</h3>
-                    </a>
-                    <span class="title">Published on: [DATE]</span>
-                    <p>Summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros nec elit
-                        malesuada, in gravida sapien accumsan.</p>
-                </li>
-                <li>
-                    <a href="post2.html">
-                        <h3><span>Post Title 2</span></h3>
-                    </a>
-                    <span class="title">Published on: [DATE]</span>
-                    <p>Summary: Donec rutrum turpis vel magna facilisis vestibulum. Proin volutpat mauris sed ligula
-                        commodo, ac pellentesque lectus bibendum.</p>
-                </li>
-            </ul>
+            <div class="title">Welcome to my blog</div>
+            <h1>Discover <span>amazing stories</span></h1>
+            <h2>Latest news and insights</h2>
+            <!-- <a href="#" class="btn">Read More</a> -->
         </div>
+    </header>
+    <main>
+        <section>
+            <h3>Featured post</h3>
+            <article>
+                <img src="img/post1.jpg" alt="Post image">
+                <h4>Post title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim dignissim, ultrices augue sit
+                    amet, bibendum massa.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+        </section>
+        <section>
+            <h3>Recent posts</h3>
+            <article>
+                <img src="img/post2.jpg" alt="Post image">
+                <h4>Post title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim dignissim, ultrices augue sit
+                    amet, bibendum massa.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+            <article>
+                <img src="img/post3.jpg" alt="Post image">
+                <h4>Post title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim dignissim, ultrices augue sit
+                    amet, bibendum massa.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Blog Page. All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>
