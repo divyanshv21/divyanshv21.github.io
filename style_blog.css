@@ -121,6 +121,11 @@ nav ul li a:hover:after {
     width: 70%;
 }
 
+.logo {
+    max-height: 60px;
+    border-radius: 80%;
+}
+
 .content h3 {
     color: #fd4766;
     font-size: 25px;
