@@ -57,9 +57,9 @@ nav ul li a:after {
     bottom: 0;
 }
 
-/* nav ul li a:hover:after {
+nav ul li a:hover:after {
     width: 100%;
-} */
+}
 
 .btn {
     color: #fff;
