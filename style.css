@@ -145,10 +145,10 @@ nav ul li a:hover:after {
     margin-bottom: 30px;
 }
 
-.social-media {
-    position: relative;
-    top: 60%;
-    left: 8%;
+.social-link img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .visuals {
