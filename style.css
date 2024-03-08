@@ -146,21 +146,7 @@ nav ul li a:hover:after {
 }
 
 .social-link img {
-    width: 160px;
+    width: 40px;
     height: auto;
     margin-right: 10px;
-}
-
-.visuals {
-    position: absolute;
-    top: 35%;
-    right: 10%;
-    /* Adjust the value to move the image away from the right corner */
-}
-
-.visual {
-    width: 300px;
-    /* Adjust the width of the image as needed */
-    height: auto;
-    /* Maintain aspect ratio */
 }
