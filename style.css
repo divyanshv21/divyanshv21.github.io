@@ -145,8 +145,16 @@ nav ul li a:hover:after {
     margin-bottom: 30px;
 }
 
+.social-media {
+    margin-top: 20px;
+    /* Add some space between the paragraph and the social media icons */
+}
+
 .social-link img {
-    width: 80px;
+    width: 40px;
+    /* Adjust the width of the social media icons */
     height: auto;
+    /* Maintain aspect ratio */
     margin-right: 10px;
+    /* Add some space between the icons */
 }
