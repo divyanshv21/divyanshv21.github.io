@@ -144,3 +144,26 @@ nav ul li a:hover:after {
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
+.social-media {
+    position: relative;
+    top: 60%;
+    left: 8%;
+}
+
+.visuals {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    /* Adjust as needed */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.visual {
+    width: 100%;
+    margin-bottom: 10px;
+    /* Adjust spacing between images */
+}
