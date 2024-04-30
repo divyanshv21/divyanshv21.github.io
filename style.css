@@ -163,7 +163,7 @@ nav ul li a:hover:after {
     position: absolute;
     top: 45%;
     right: 8%;
-    transform: translateY(-50%);
+    transform: translateY(-20%);
 }
 
 .vector-art img {
