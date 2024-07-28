@@ -40,6 +40,7 @@ nav ul li a {
     color: #1d1d24;
     position: relative;
     padding: 5px 0;
+    transition: color 1s;
 }
 
 nav ul li a:hover {
@@ -53,7 +54,7 @@ nav ul li a:after {
     width: 0;
     height: 3px;
     background: #fd4766;
-    transition: 0.3s;
+    transition: width 1s;
     bottom: 0;
 }
 
@@ -70,7 +71,7 @@ nav ul li a:hover:after {
     border-radius: 500px;
     display: inline-block;
     font-weight: 500;
-    transition: all 0.4s ease-in-out;
+    transition: all 1s ease-in-out;
     background-size: 152% 100%;
     background: #fd4766;
     border: 2px solid #fd4766;
@@ -182,7 +183,7 @@ nav ul li a:hover:after {
     border-radius: 15px;
     border: 2px solid grey;
     cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    transition: background-color 0.5s, border-color 0.5s, box-shadow 0.5s;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
@@ -190,7 +191,7 @@ nav ul li a:hover:after {
 .theme-toggle .icon {
     width: 24px;
     height: 24px;
-    transition: transform 0.3s;
+    transition: transform 0.5s;
     position: relative;
     left: 3px;
 }
@@ -209,38 +210,46 @@ nav ul li a:hover:after {
 body.dark-theme {
     background-color: #1a1a1a;
     color: #e0e0e0;
+    transition: background-color 1s, color 1s;
 }
 
 body.dark-theme nav ul li a {
     color: #e0e0e0;
+    transition: color 1s;
 }
 
 body.dark-theme .hero {
     background-color: #1a1a1a;
+    transition: background-color 1s;
 }
 
 body.dark-theme .content h1,
 body.dark-theme .content h2 {
     color: #e0e0e0;
+    transition: color 1s;
 }
 
 body.dark-theme .content h1 span,
 body.dark-theme .content h2 span {
     color: #aaaaaa;
+    transition: color 1s;
 }
 
 body.dark-theme .content p {
     color: #cccccc;
+    transition: color 1s;
 }
 
 body.dark-theme .btn {
     background: #555555;
     border: 2px solid #555555;
     color: #e0e0e0;
+    transition: background 1s, border-color 1s, color 1s;
 }
 
 body.dark-theme .btn:hover {
     background: transparent;
     border-color: #555555;
     color: #555555;
+    transition: background 1s, border-color 1s, color 1s;
 }
