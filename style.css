@@ -175,25 +175,34 @@ nav ul li a:hover:after {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 60px;
     height: 30px;
-    background-color: grey;
+    background-color: light grey;
     border-radius: 15px;
     border: 2px solid grey;
     cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .theme-toggle .icon {
     width: 24px;
     height: 24px;
-    transition: opacity 0.3s;
+    transition: transform 0.3s;
+    position: relative;
+    left: 3px;
 }
 
 .theme-toggle.active {
     background-color: #333333;
     border-color: #333333;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.theme-toggle.active .icon {
+    transform: translateX(30px);
 }
 
 /* Dark theme styles */
@@ -206,24 +215,9 @@ body.dark-theme nav ul li a {
     color: #e0e0e0;
 }
 
-/* body.dark-theme nav ul li a:hover {
-    color: #ffffff;
-}
-
-body.dark-theme nav ul li a:after {
-    background: #ffffff;
-} */
-
 body.dark-theme .hero {
     background-color: #1a1a1a;
 }
-
-/* body.dark-theme .content .title {
-    color: #ffffff;
-    background: linear-gradient(120deg, #e0e0e0 20.69%, #aaaaaa 50.19%, #555555 79.69%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 
 body.dark-theme .content h1,
 body.dark-theme .content h2 {
