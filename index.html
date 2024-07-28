@@ -3,17 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>homepage</title>
-     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3LS7RTK3JJ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-3LS7RTK3JJ');
-    </script>
-    <!-- CSS link -->
+    <title>homepage</title>  
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -28,11 +18,16 @@
                 <li><a href="./blog.html">Blog</a></li>
                 <li><a href="https://divyanshv21.github.io./contact.html">Contact</a></li>
                 <li><a href="./resources.html">Resources</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle">
+                        <img src="day-and-night.png" class="icon" alt="Icon">
+                        
+                    </button>
+                </li>
             </ul>
         </nav>
 
         <div class="content">
-            <!-- <img src="./profile-pic.jpg" class="profile-pic" /> -->
             <span class="title">Mathematics Undergrad at IIT Kanpur</span>
             <h1>Hello, I'm <span>Divyansh</span></h1>
             <p>
@@ -55,6 +50,14 @@
             <img src="./trees.jpg" alt="Vector Art">
         </div>
     </div>
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            themeToggle.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
