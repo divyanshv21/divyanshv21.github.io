@@ -245,6 +245,6 @@ body.dark-theme .btn:hover {
     color: #555555;
 }
 
-body.dark-theme .social-link img {
+/* body.dark-theme .social-link img {
     filter: brightness(0) invert(1);
-}
+} */
