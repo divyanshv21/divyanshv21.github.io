@@ -155,7 +155,7 @@ nav ul li a:hover:after {
     /* Adjust the width of the social media icons */
     height: auto;
     /* Maintain aspect ratio */
-    margin-right: 10px;
+    margin-right: 15px;
     /* Add some space between the icons */
 }
 
@@ -244,7 +244,3 @@ body.dark-theme .btn:hover {
     border-color: #555555;
     color: #555555;
 }
-
-/* body.dark-theme .social-link img {
-    filter: brightness(0) invert(1);
-} */
