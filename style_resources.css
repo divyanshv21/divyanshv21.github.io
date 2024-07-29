@@ -157,3 +157,87 @@ nav ul li a:hover:after {
 .content ul li a:hover {
     color: #fd4766;
 }
+
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    transition: background-color 1s, color 1s;
+}
+
+body.dark-theme nav ul li a {
+    color: #e0e0e0;
+    transition: color 1s;
+}
+
+body.dark-theme .hero {
+    background-color: #1a1a1a;
+    transition: background-color 1s;
+}
+
+body.dark-theme .content .title {
+    color: #e0e0e0;
+    transition: color 1s;
+}
+
+body.dark-theme .content h1,
+body.dark-theme .content h2,
+body.dark-theme .content h3 {
+    color: #e0e0e0;
+    transition: color 1s;
+}
+
+body.dark-theme .content h1 span,
+body.dark-theme .content h2 span,
+body.dark-theme .content h3 span {
+    color: #aaaaaa;
+    transition: color 1s;
+}
+
+body.dark-theme .content ul {
+    color: #cccccc;
+    transition: color;
+}
+
+body.dark-theme .content ul li a {
+    color: #cccccc;
+    transition: color;
+}
+
+body.dark-theme .content ul li a:hover {
+    color: #fd4766;
+    transition: color;
+}
+
+.theme-toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 64px;
+    height: 32px;
+    background-color: light grey;
+    border-radius: 15px;
+    border: 2px solid grey;
+    cursor: pointer;
+    transition: background-color 0.5s, border-color 0.5s, box-shadow 0.5s;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.theme-toggle .icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.5s;
+    position: relative;
+    left: 3px;
+}
+
+.theme-toggle.active {
+    background-color: #333333;
+    border-color: #333333;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.theme-toggle.active .icon {
+    transform: translateX(30px);
+}
