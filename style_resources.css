@@ -179,14 +179,12 @@ body.dark-theme .content .title {
     transition: color 1s;
 }
 
-body.dark-theme .content h1,
-body.dark-theme .content h2 {
+body.dark-theme .content h1 {
     color: #e0e0e0;
     transition: color 1s;
 }
 
-body.dark-theme .content h1 span,
-body.dark-theme .content h2 span {
+body.dark-theme .content h1 span {
     color: #aaaaaa;
     transition: color 1s;
 }
