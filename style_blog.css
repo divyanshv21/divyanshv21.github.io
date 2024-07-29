@@ -153,7 +153,7 @@ nav ul li a:hover:after {
     justify-content: flex-start;
     width: 64px;
     height: 32px;
-    background-color: light grey;
+    background-color: lightgrey;
     border-radius: 15px;
     border: 2px solid grey;
     cursor: pointer;
@@ -178,4 +178,44 @@ nav ul li a:hover:after {
 
 .theme-toggle.active .icon {
     transform: translateX(30px);
+}
+
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    transition: background-color 1s, color 1s;
+}
+
+body.dark-theme nav ul li a {
+    color: #e0e0e0;
+}
+
+body.dark-theme .hero {
+    background-color: #1a1a1a;
+}
+
+body.dark-theme .content h1,
+body.dark-theme .content h2 {
+    color: #e0e0e0;
+}
+
+body.dark-theme .content h1 span,
+body.dark-theme .content h2 span {
+    color: #aaaaaa;
+}
+
+body.dark-theme .content p {
+    color: #cccccc;
+}
+
+body.dark-theme .btn {
+    background: #555555;
+    border: 2px solid #555555;
+    color: #e0e0e0;
+}
+
+body.dark-theme .btn:hover {
+    background: transparent;
+    border-color: #555555;
+    color: #555555;
 }
