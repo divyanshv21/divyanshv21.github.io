@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.11 (pi-rag-assignment 2)" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="6b333887-1715-4675-895b-a8562bd5dd2f" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (pi-rag-assignment 2)" project-jdk-type="Python SDK" />
+</project>
